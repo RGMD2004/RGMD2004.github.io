@@ -35460,13 +35460,23 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 114px;
+  }
+
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -57px;
-    margin-right: 0;
+    margin-top: -55px;
+    margin-right: -25px;
+    margin-bottom: 31px;
   }
 }
-
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-top: -55px;
+    margin-right: -25px;
+  }
+}
 
 
 .u-footer {
